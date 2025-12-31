@@ -1,11 +1,11 @@
 # QA API Testing – Pytest + Requests + Docker + GitHub Actions
 ![CI](https://github.com/Matiaslb14/qa-api-docker-ci/actions/workflows/ci.yml/badge.svg)
 ## 📌 Descripción
-Proyecto de **QA Automation** enfocado en la validación de una **API REST** utilizando **Pytest** y **Requests**, incorporando **Docker** y **GitHub Actions** para asegurar la ejecución consistente de los tests en distintos entornos.
+Proyecto de **QA Automation** enfocado en la validación de una **API REST** utilizando **Pytest y Requests**, incorporando **Docker** y **GitHub Actions** para asegurar la ejecución consistente de los tests en distintos entornos.
 
-El objetivo es construir un proyecto **completo pero no complejo**, orientado a un perfil **QA Automation Junior**, demostrando buenas prácticas de testing de APIs y nociones básicas de **CI / DevOps**.
+El proyecto valida los mismos tests de forma reproducible en **entorno local**, **contenedor Docker** y **pipeline de CI**, priorizando estabilidad, claridad y paridad de ejecución.
 
-Se utiliza una **API pública (JSONPlaceholder)** para simular un entorno real de pruebas sin dependencias de backend propio ni interfaz gráfica.
+Se utiliza una **API pública (JSONPlaceholder)** para simular un entorno real de pruebas, sin dependencias de backend propio ni interfaz gráfica.
 
 ## ⭐ Características / Features Clave
 - Automatización de pruebas de **APIs REST** con **Pytest**
